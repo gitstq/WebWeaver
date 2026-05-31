@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# 状态文件 / State files
+.webweaver_state.json
+
+# 输出文件 / Output files
+output.json
+output.csv
+crawl_results.json
+crawl_results.csv
+extract_results.json
+extract_results.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量 / Environment
+.env
+.venv/
+venv/
+env/
+
+# 系统文件 / System files
+.DS_Store
+Thumbs.db
+
+# 测试 / Testing
+.pytest_cache/
+.coverage
+htmlcov/
